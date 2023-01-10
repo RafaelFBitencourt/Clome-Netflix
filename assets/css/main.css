@@ -16,7 +16,7 @@ header .container{
     display: flex;
     align-items: center;
     justify-content: space-between;
-   margin: 30px 30px;
+    margin: 30px 30px;
 }
 header .logo{
     color: var(--vermelho);
@@ -50,9 +50,11 @@ header nav a:hover{
 }
 .filme-principal .titulo{
     margin-top: 15%;
-    margin-bottom: 10px;
     font-size: 40px;
     font-family: 'Trebuchet MS', Arial, sans-serif;
+}
+.filme-principal .container{
+    width: 50%;
 }
 
 .botao{
